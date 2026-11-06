@@ -1,9 +1,6 @@
 #include <algorithm>
 #include <fstream>
 #include <gtest/gtest.h>
-#include <iterator>
-#include <vector>
-#include <gmock/gmock.h>
 
 
 bool equal_two_double_vectors(const std::vector<double>& result, const std::vector<double>& expected, double eps = 1e-9) {
